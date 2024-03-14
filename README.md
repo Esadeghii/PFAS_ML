@@ -1,4 +1,4 @@
-# Elucidating mechanisms of per- and polyfluoroalkyl substances (PFASs) removal by nanofiltration and reverse osmosis using machine learning via XGBoost and multimodal transformer models
+# Elucidating mechanisms of per- and polyfluoroalkyl substances (PFASs) removal by polyamide membranes using machine learning and molecular dynamics simulations
 
 ```
 Python version: 3.10.12
