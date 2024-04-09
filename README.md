@@ -1,5 +1,13 @@
 # Elucidating mechanisms of per- and polyfluoroalkyl substances (PFASs) removal by polyamide membranes using machine learning and molecular dynamics simulations
 
+This file is the guidance for running XGboost and multimodal transformer models for predicting PFAS rejections by nanofiltration and reverse osmosis membranes. All the codes were run and tested on Google Colab. Jupyter noteboook or other Python integrated development environments (IDE)/code editor can also be used to run the codes.
+
+## Overview
+
+The transformer and XGBoost aim to predict the PFAS removal rates by NF and RO membranes. The models are trained on PFAS removal rate dataset obtained from the literature.
+
+## Version
+
 ```
 Python version: 3.10.12
 SHAP version: 0.44.0
@@ -8,6 +16,15 @@ Tensorflow version: 2.14.0
 hyperopt version: 0.2.7
 ```
 
-This file is the guidance for running XGboost and multimodal transformer models for predicting PFAS rejections by nanofiltration and reverse osmosis membranes. All the codes were run and tested on Google Colab. Jupyter noteboook or other Python integrated development environments (IDE)/code editor can also be used to run the codes.
+## Ownwers
+Nohyeong Jeong, njeong6@gatech.edu
 
-## Description on dataset
+## Considerations
+
+# Use Cases
+* The models can be used to predict the performanced based on the membrane properties, PFAS properties, as well as operational conditions.
+
+# Limitations
+* Due to the nature of NF and RO membranes, PFAS removal rates obtained from the literature were generally high. Inclusion of low PFAS removal may need to consider other types of membranes, such as ultrafiltration membranes. 
+
+* 
