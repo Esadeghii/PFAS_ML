@@ -22,7 +22,7 @@ Nohyeong Jeong, njeong6@gatech.edu
 ## Considerations
 
 # Use Cases
-* The models can be used to predict the performanced based on the membrane properties, PFAS properties, as well as operational conditions.
+* The models can be used to predict the performance of nanofiltration (NF) and reverse osmosis (RO) based on the membrane properties, PFAS properties, as well as operational conditions.
 
 # Limitations
 * Due to the nature of NF and RO membranes, PFAS removal rates obtained from the literature were generally high. Inclusion of low PFAS removal may need to consider other types of membranes, such as ultrafiltration membranes.
